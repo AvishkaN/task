@@ -1,0 +1,63 @@
+.display-flex{
+    display: flex;
+    
+}
+.display-flex-a-c{
+    display: flex;
+    align-items: center;
+
+}
+
+.justify-content-end{
+    justify-content: end;
+}
+
+.cursor-p{
+   cursor: pointer; 
+}
+.font-size-normal{
+    font-size: 1.1rem;
+}
+
+
+.background-warning{
+    background-color: #f0ad4e !important;
+}
+
+.btn-remove-focus{ 
+    box-shadow: none !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+
+    left:-15%;
+    background: red; 
+    opacity: 0;
+ }
+
+ input[type=date] {
+    -moz-appearance: textfield;
+  }
+
+  .hr{ 
+      height: 200px; 
+  }
+
+  .border-top{
+    border-top: 1px solid #fff;
+  }
+
+
+.container{
+    border-radius: 20px; 
+    .nav{
+        label,input{
+            cursor: pointer;
+        }
+    }
+}
