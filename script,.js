@@ -6,7 +6,7 @@ const roundTripHtml=`
 
 <div id="row" class="row ">
 
-    <div class="col-sm-2">
+    <div class="col-lg-2">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1">  <i class="fas fa-plane-departure"></i></span>
           
@@ -14,7 +14,7 @@ const roundTripHtml=`
         </div>
     </div>
     
-    <div class="col-sm-2">
+    <div class="col-lg-2">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1"> 
                 <i class="fas fa-plane-arrival"></i>
@@ -23,7 +23,7 @@ const roundTripHtml=`
             <input type="text" class="form-control" placeholder="Destination" aria-label="Username" aria-describedby="basic-addon1">
         </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-lg-2">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1"> 
                 <i class="far fa-calendar-alt"></i>
@@ -33,7 +33,7 @@ const roundTripHtml=`
         </div>
     </div>
 
-    <div class="col-sm-2">
+    <div class="col-lg-2">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1"> 
                 <i class="far fa-calendar-alt"></i>
@@ -43,12 +43,12 @@ const roundTripHtml=`
         </div>
     </div>
 
-    <div class="col-sm-2 p-1 font-size-normal text-center">
+    <div class="col-lg-2 p-1 font-size-normal text-center">
         <i class="fas fa-hiking fa-util"></i>
         <span>Travellers</span>
     </div>
 
-    <div class="col-sm-2">
+    <div class="col-lg-2">
         <button type="button" class="btn btn-danger w-100">Search</button>
     </div>
 
@@ -63,7 +63,7 @@ const OneWayHtml=`
 
 <div id="row" class="row ">
 
-    <div class="col-sm-2">
+    <div class="col-lg-2">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1">  <i class="fas fa-plane-departure"></i></span>
           
@@ -71,7 +71,7 @@ const OneWayHtml=`
         </div>
     </div>
     
-    <div class="col-sm-2">
+    <div class="col-lg-2">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1"> 
                 <i class="fas fa-plane-arrival"></i>
@@ -80,7 +80,7 @@ const OneWayHtml=`
             <input type="text" class="form-control" placeholder="Destination" aria-label="Username" aria-describedby="basic-addon1">
         </div>
     </div>
-    <div class="col-sm-2">
+    <div class="col-lg-2">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1"> 
                 <i class="far fa-calendar-alt"></i>
@@ -97,7 +97,7 @@ const OneWayHtml=`
         <span>Travellers/Cabin</span>
     </div>
 
-    <div class="col-sm-2">
+    <div class="col-lg-2">
         <button type="button" class="btn btn-danger w-100">Search</button>
     </div>
 
@@ -118,7 +118,7 @@ const MultiCityHtml=`
 <div id="row" class="row ">
 
 
-    <div class="col-sm-3">
+    <div class="col-lg-3">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1">  <i class="fas fa-plane-departure"></i></span>
           
@@ -126,7 +126,7 @@ const MultiCityHtml=`
         </div>
     </div>
     
-    <div class="col-sm-3">
+    <div class="col-lg-3">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1"> 
                 <i class="fas fa-plane-arrival"></i>
@@ -135,7 +135,7 @@ const MultiCityHtml=`
             <input type="text" class="form-control" placeholder="Destination" aria-label="Username" aria-describedby="basic-addon1">
         </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-lg-3">
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1"> 
                 <i class="far fa-calendar-alt"></i>
@@ -145,7 +145,7 @@ const MultiCityHtml=`
         </div>
     </div>
 
-    <div class="col-sm-3  font-size-normal text-center">
+    <div class="col-lg-3  font-size-normal text-center">
         <div>Cabin Class & Info</div>
         <i class="fas fa-hiking fa-util"></i>
         <span>Travellers</span>
@@ -158,7 +158,7 @@ const MultiCityHtml=`
 
 
 
-    <div class="col-sm-3">
+    <div class="col-lg-3">
         <label class="font-size-normal">Origin </label>
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1">  <i class="fas fa-plane-departure"></i></span>
@@ -167,7 +167,7 @@ const MultiCityHtml=`
         </div>
     </div>
     
-    <div class="col-sm-3">
+    <div class="col-lg-3">
         <label class="font-size-normal">Destination </label>
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1"> 
@@ -177,7 +177,7 @@ const MultiCityHtml=`
             <input type="text" class="form-control" placeholder="Destination" aria-label="Username" aria-describedby="basic-addon1">
         </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-lg-3">
         <label class="font-size-normal">Departure </label>
         <div class=" input-group mb-3">
             <span class="input-group-text" id="basic-addon1"> 
